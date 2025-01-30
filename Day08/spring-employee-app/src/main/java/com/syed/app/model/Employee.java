@@ -1,4 +1,4 @@
-package com.rama.app.model;
+package com.syed.app.model;
 
 public class Employee {
   public String getId() {

@@ -1,7 +1,7 @@
-package com.rama.app.controller;
+package com.syed.app.controller;
 
-import com.rama.app.model.Employee;
-import com.rama.app.service.EmployeeService;
+import com.syed.app.model.Employee;
+import com.syed.app.service.EmployeeService;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

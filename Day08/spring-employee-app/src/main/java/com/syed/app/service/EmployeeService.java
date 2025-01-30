@@ -1,6 +1,6 @@
-package com.rama.app.service;
+package com.syed.app.service;
 
-import com.rama.app.model.Employee;
+import com.syed.app.model.Employee;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;

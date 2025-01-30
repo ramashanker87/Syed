@@ -1,15 +1,12 @@
-package com.rama.app.controller;
+package com.syed.app.controller;
 
-import com.rama.app.controller.EmployeeController;
-import com.rama.app.model.Employee;
-import com.rama.app.service.EmployeeService;
+import com.syed.app.model.Employee;
+import com.syed.app.service.EmployeeService;
 import org.junit.Test;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
-import org.springframework.test.web.servlet.MockMvc;
 
 import java.util.HashMap;
 import java.util.Map;
