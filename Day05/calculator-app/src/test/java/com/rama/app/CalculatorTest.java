@@ -1,5 +1,6 @@
-package com.rama.app;
 
+
+import com.rama.app.Calculator;
 import org.junit.Test;
 
 public class CalculatorTest {
@@ -26,9 +27,9 @@ public class CalculatorTest {
   }
 
   @Test
-  public void testdiv() {
+  public void testdivide() {
     Calculator calculator = new Calculator();
-    double result= Calculator.division(10,2);
+    int result= Calculator.divide(10.0,2.0);
     assert result == 5;
 
   }
