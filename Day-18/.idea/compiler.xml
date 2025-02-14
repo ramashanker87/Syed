@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="doctor-sqs" />
+        <module name="patient-sqs" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-sqs-app" target="1.5" />
+      <module name="sqs-consumer" target="17" />
+      <module name="sqs-producer" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="doctor-sqs" options="-parameters" />
+      <module name="patient-sqs" options="-parameters" />
+      <module name="sqs-consumer" options="-parameters" />
+      <module name="sqs-producer" options="-parameters" />
+    </option>
+  </component>
+</project>
