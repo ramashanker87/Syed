@@ -1,4 +1,4 @@
-package com.prashant.app.model;
+package com.syed.app.model;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;

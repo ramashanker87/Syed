@@ -1,4 +1,4 @@
-package com.prashant.app.consumer;
+package com.syed.app.consumer;
 
 import com.prashant.app.model.Student;
 import com.prashant.app.service.StudentService;

@@ -1,4 +1,4 @@
-package com.prashant.app.controller;
+package com.syed.app.controller;
 
 import com.prashant.app.model.Student;
 import com.prashant.app.service.RabbitMqSender;

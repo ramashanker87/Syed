@@ -1,4 +1,4 @@
-package com.prashant.app;
+package com.syed.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
