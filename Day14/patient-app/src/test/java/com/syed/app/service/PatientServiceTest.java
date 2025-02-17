@@ -1,6 +1,6 @@
-package com.prashant.app.service;
+package com.syed.app.service;
 
-import com.prashant.app.model.Patient;
+import com.syed.app.model.Patient;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
