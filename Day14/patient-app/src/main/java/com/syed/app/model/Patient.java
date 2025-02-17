@@ -1,4 +1,4 @@
-package com.prashant.app.model;
+package com.syed.app.model;
 
 
 public class Patient {
