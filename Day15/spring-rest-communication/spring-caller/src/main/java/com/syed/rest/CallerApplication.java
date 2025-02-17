@@ -1,13 +1,12 @@
-package com.prashant.app;
+package com.syed.rest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StudentManagementAppApplication {
-
+public class CallerApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(StudentManagementAppApplication.class, args);
+		SpringApplication.run(CallerApplication.class, args);
 	}
 
 }

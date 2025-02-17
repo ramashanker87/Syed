@@ -1,4 +1,4 @@
-package com.prashant.app.config;
+package com.syed.app.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
