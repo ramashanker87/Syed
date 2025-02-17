@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.prashant.app</groupId>
+		<artifactId>student-management-app</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<packaging>jar</packaging>
+	<groupId>com.prashant.app</groupId>
+	<artifactId>common</artifactId>
+	<version>1.0.0</version>
+	<name>common</name>
+	<description>Demo project for Spring Boot </description>
+
+<!--this build is very important otherwise other module will not be able to access Student class
+	PS C:\Users\admin\IdeaProjects\Prashant\Day-15\student-management-app\common\target> jar tf common-1.0.0.jar | Select-String "Student.class"
+
+see student moved inside the BootInf that why dependent class won't be able to access
+	BOOT-INF/classes/com/prashant/app/model/Student.class
+
+After added plugins
+	PS C:\Users\admin\IdeaProjects\Prashant\Day-15\student-management-app\common\target> jar tf common-1.0.0.jar | Select-String "Student.class"
+
+	com/prashant/app/model/Student.class
+
+
+	PS C:\Users\admin\IdeaProjects\Prashant\Day-15\student-management-app\common\target> -->
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<classifier>exec</classifier>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+						<phase>none</phase> <!-- Prevents repackaging -->
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+
+</project>
