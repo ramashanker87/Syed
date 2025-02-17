@@ -1,9 +1,7 @@
 package com.syed.app.model;
 
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.persistence.*;
-import lombok.*;
+
 
 @Entity
 @Table(name = "Student")
