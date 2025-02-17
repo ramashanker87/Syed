@@ -1,4 +1,4 @@
-package com.prashant.app;
+package com.syed.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
