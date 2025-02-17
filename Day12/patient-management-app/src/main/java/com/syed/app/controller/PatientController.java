@@ -1,7 +1,7 @@
 package com.syed.app.controller;
 
-import com.prashant.app.model.Patient;
-import com.prashant.app.service.PatientService;
+import com.syed.app.model.Patient;
+import com.syed.app.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
